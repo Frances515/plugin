@@ -10,6 +10,9 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
 }
+function load(){
+     navigator.geolocation.getCurrentPosition(onSuccess, onError);
+    }
 
 // onSuccess Geolocation
 //
